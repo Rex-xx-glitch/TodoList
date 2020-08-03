@@ -1,0 +1,48 @@
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin: 20px;
+}
+
+.large {
+  width: 100%;
+  margin: 20px 0 0;
+}
+
+.input-container input[type="text"] {
+  padding: 10px 5px;
+  width: 80%;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 3px;
+  border: 1px solid gray;
+  margin: 0 5px 0 0;
+}
+
+.input-container input[type="button"] {
+  padding: 4px 12px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(59, 56, 56);
+  color: white;
+  transition: all ease-in-out 250ms;
+  cursor: pointer;
+}
+
+.input-container input[type="button"]:hover {
+  background: rgb(92, 91, 91);
+}
+
+.large input[type="text"] {
+  padding: 15px 75px;
+  font-size: 1.6rem;
+}
+
+.large input[type="button"] {
+  padding: 16px;
+  border-radius: 2px;
+  background-color: gray;
+  font-size: 1.6rem;
+}

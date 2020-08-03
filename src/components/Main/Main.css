@@ -1,0 +1,12 @@
+.main-container {
+  background: #141e30;
+  width: 100%;
+  min-width: 1000px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 3.5rem;
+  margin: 100px 0 20px;
+  color: white;
+}

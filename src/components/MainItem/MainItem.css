@@ -1,0 +1,46 @@
+.items-container {
+  margin: 0 20%;
+}
+
+.main-item-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(73, 73, 73);
+  color: rgb(255, 255, 255);
+  padding: 10px 5px;
+  font-size: 1.8rem;
+  margin: 5px 0;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.main-item-title {
+  width: 80%;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.main-item-icon i {
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.main-item-icon i + i {
+  margin-left: 10px;
+}
+
+.main-item-icon i:first-child:hover {
+  color: rgb(121, 16, 16);
+}
+
+.main-item-icon i:last-child:hover {
+  color: rgb(71, 97, 71);
+}
+
+.main-text-input {
+  display: flex;
+  justify-content: center;
+}
+
+.checked {
+  text-decoration: line-through;
+}

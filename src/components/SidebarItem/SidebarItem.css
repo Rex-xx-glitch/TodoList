@@ -1,0 +1,33 @@
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+  background-color: rgb(41, 40, 40);
+  color: white;
+  padding: 5px;
+}
+
+.item-title {
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 80%;
+  text-transform: uppercase;
+  padding: 3px;
+}
+
+.item-icon i:first-child {
+  color: rgb(153, 35, 35);
+}
+
+.item-icon i:hover {
+  text-shadow: 1px 2px 5px gray;
+  transform: rotate(3deg);
+}
+
+.item-icon i {
+  cursor: pointer;
+}
+.fav {
+  color: rgb(163, 163, 19);
+}
